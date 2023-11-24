@@ -1,10 +1,13 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
+// import Image from 'next/image'
+import Navigation from "@/components/navigation/navigation";
+import styles from "./page.module.css";
 export default function Home() {
   return (
-    <main className={styles.main}>
-    Welcome Home Memer...
-    </main>
-  )
+    <div className={styles.home}>
+      <section>Welcome Home</section>
+      <section className={styles.navigation}>
+        <Navigation />
+      </section>
+    </div>
+  );
 }

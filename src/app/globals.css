@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail:wght@300;400;700&display=swap");
+
+:root {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+
+  --primary-color: #000000;
+  --secondary-color: #2196c0;
+  --bg-color: #ffffff;
+  --blog-color: #64b454;
+  --primary-font-size: 26px;
+  --secondary-font-size: 28px;
+
+  --primary-font-family: "Inter", sans-serif;
+  --secondary-font-family: "Yellowtail", sans-serif;
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  --color-footer: rgba(36, 150, 14, 0.71);
+  --box-shadow: rgba(0, 0, 0, 0.25);
+  --border-box:  rgba(4, 12, 24, 0.09);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--bg-color);
+  margin: 0;
+}
+body {
+  font-family: var(--font-family);
+}
