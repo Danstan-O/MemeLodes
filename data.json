@@ -1,0 +1,50 @@
+{
+  "register": [
+    {
+      "id": 1,
+      "userName": "mwiko",
+      "email": "mwiko@gmail.com"
+     
+    },
+    {
+      "id": 2,
+      "userName": "mwiko"
+      
+    },
+    {
+      "userName": "ggggggggggg"
+    },
+    {
+      "userName": "hhhhhhhhhh",
+      "email": "mwiko@gmail.com"
+    },
+    {
+      "userName": "uuuuuuu",
+      "email": "mwiko@gmail.com",
+      "password": "mwiko",
+      "id": 5
+    }
+  ],
+  "auth": [
+    {
+      "userName": "mwiko",
+      "password": "mwiko",
+      "id": 1
+    },
+    {
+      "userName": "mwiko",
+      "password": "Dmwiko",
+      "id": 2
+    },
+    {
+      "userName": "mwiko",
+      "password": "mwiko",
+      "id": 3
+    },
+    {
+      "userName": "mwiko",
+      "password": "mwiko",
+      "id": 4
+    }
+  ]
+}
